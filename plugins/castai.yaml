@@ -4,32 +4,32 @@ kind: Plugin
 metadata:
   name: castai
 spec:
-  version: v0.0.12
+  version: v0.0.13
   platforms:
     - bin: bin/kubectl-castai
-      uri: https://downloads.cast.ai/cli/castai/v0.0.12/kubectl-castai-plugin_0.0.12_linux_arm64.tar.gz
-      sha256: 3bf417685f73d9a1b2d5363a1c124f359df2403fdc53e970d4737f5abe3da99d
+      uri: https://github.com/mjudeikis/castai-krew-index/releases/download/v0.0.13/kubectl-castai-plugin_0.0.13_linux_arm64.tar.gz
+      sha256: ed15644fedfeab170f7ad3130a2f08f77c1ae5e1452388238d1fff3156edf225
       selector:
         matchLabels:
           os: linux
           arch: arm64
     - bin: bin/kubectl-castai
-      uri: https://downloads.cast.ai/cli/castai/v0.0.12/kubectl-castai-plugin_0.0.12_linux_amd64.tar.gz
-      sha256: 05d0ece3728d86b5b573047d83db8765ac872449223b9ab6db93c6fe8ea185dd
+      uri: https://github.com/mjudeikis/castai-krew-index/releases/download/v0.0.13/kubectl-castai-plugin_0.0.13_linux_amd64.tar.gz
+      sha256: 650fb8c9444407050ca5d5da5527570a159ed14192b3fe0c199ea1fbbc389e2b
       selector:
         matchLabels:
           os: linux
           arch: amd64
     - bin: bin/kubectl-castai
-      uri: https://downloads.cast.ai/cli/castai/v0.0.12/kubectl-castai-plugin_0.0.12_darwin_arm64.tar.gz
-      sha256: 0393fa3aac412a7c885d075bee73614a40594807f46641fdb006d6000368a2ba
+      uri: https://github.com/mjudeikis/castai-krew-index/releases/download/v0.0.13/kubectl-castai-plugin_0.0.13_darwin_arm64.tar.gz
+      sha256: 3af87f13806bdd3118bae67052ccbfc89461af7cf2a2ee8b36d4645616c23f8c
       selector:
         matchLabels:
           os: darwin
           arch: arm64
     - bin: bin/kubectl-castai
-      uri: https://downloads.cast.ai/cli/castai/v0.0.12/kubectl-castai-plugin_0.0.12_darwin_amd64.tar.gz
-      sha256: 45b0411dd1abfc2a540974dd29968a78cf111ef8393384b207dd3c318133bf26
+      uri: https://github.com/mjudeikis/castai-krew-index/releases/download/v0.0.13/kubectl-castai-plugin_0.0.13_darwin_amd64.tar.gz
+      sha256: f591b6e427fa80ed6a45f0f807db5f28c65d7b431ef04d86427a45fd4730a5ba
       selector:
         matchLabels:
           os: darwin
